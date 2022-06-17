@@ -1,0 +1,138 @@
+body{
+  background: linear-gradient(aquamarine, rgb(54, 114, 114), rgb(11, 197, 197));
+  padding: 0px;
+  margin: 0px;
+}
+
+header{
+    width: 100%;
+    height: 1000px;
+    font-family: 'Architects Daughter'; 
+    font-weight: 900;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.logo{
+  border-radius: 100px;
+  box-sizing: border-box;
+
+  border-color: rgb(231, 235, 240);
+  border-width: 16px;
+  border-style: solid;   
+}
+
+.boton_inicio{
+  width: 150px;
+  height: 75px;
+  font-size: 26px;
+  background: rgb(243, 178, 48);
+  border-radius: 50px;
+}
+
+.boton_inicio:hover {       
+  transform: scale(1.2);
+}
+
+.link{
+  text-decoration: none;
+  color: #020406;
+}
+
+footer{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: auto;
+    height: 200px;
+    background: linear-gradient(aquamarine, rgb(117, 182, 182), rgb(11, 197, 197));
+    text-align: center;
+    padding-top: 40px;   
+}
+
+
+/* ------------PAGINA 2 ------------*/
+
+.header2{
+    width: 100%;
+    height: 200px;
+    font-family: 'Architects Daughter'; 
+    font-weight: 900;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 40px;    
+}
+
+
+.boton_volver{
+  width: 120px;
+  height: 60px;
+  font-size: 20px;
+  background: rgb(243, 178, 48);
+  border-radius: 50px;
+  margin-left: 45%;
+  margin-top: 50px;  
+}
+
+.boton_volver:hover {       
+        transform: scale(1.2);
+}
+
+.container{  
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  font-family: 'Architects Daughter'; 
+  font-weight: 900;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#correcta, #incorrecta {      
+  font-size: 20px; 
+  font-family: 'Architects Daughter'; 
+  font-weight: 900;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  font-style: italic;
+  height: 100px;
+  width: 220px;
+  border-radius: 10px;
+  border-color: rgb(61, 96, 129);
+  border-width: 4px;
+  border-style: solid;
+}
+
+.imagen{
+width: 500px;
+height: 200px;
+border-radius: 20px;
+box-sizing: border-box;
+
+border-color: rgb(61, 96, 129);
+border-width: 4px;
+border-style: solid;
+}
+
+.rojo:active{
+background-color: red;
+}
+
+.verde:active{
+background-color: green;
+}
+
+
+
+
+.SliderImages {
+    width: 100%;
+}
